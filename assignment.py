@@ -10,7 +10,7 @@ class FontAdjuster(QWidget):
         self.initUI()
 
     def initUI(self):
-        self.setWindowTitle('Task Week 4 - Font and Color Adjuster')
+        self.setWindowTitle('Task Week 6 - Font and Color Adjuster')
         self.setGeometry(300, 300, 500, 400)
         self.setMinimumSize(450, 300)
 
@@ -44,7 +44,7 @@ class FontAdjuster(QWidget):
         self.textLabel.setAlignment(Qt.AlignCenter)
         self.textLabel.setWordWrap(True)
 
-        font = QFont('Arial', 32)
+        font = QFont('Arial', 20)
         self.textLabel.setFont(font)
         self.textLabel.setStyleSheet("color: black; background-color: white;")
 
